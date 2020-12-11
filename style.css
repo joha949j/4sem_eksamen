@@ -21,6 +21,14 @@ h1 {
     color: #ececec;
 }
 
+h2 {
+    font-family: neue-haas-grotesk-text, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 30px !important;
+    color: #ececec;
+}
+
 p {
 
     font-family: neue-haas-grotesk-text, sans-serif !important;
@@ -148,7 +156,50 @@ p {
     z-index: 1;
 }
 
+/*2018*/
 
+#blonde_2018 {
+    height: 100vh;
+    background-color: #28328f;
+
+}
+
+/*2019*/
+
+#blonde_2019 {
+    height: 100vh;
+    background-color: #28328f;
+}
+
+
+/*2020*/
+#blonde_2020 {
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*contact*/
+
+#contact_section {
+    height: 100vh;
+    background-color: #28328f;
+}
+
+#contact_form input,
+#contact_form label,
+#contact_form textarea {
+    width: 100%;
+    border-style: solid #ececec;
+    border-radius: 0px;
+    color: #28328f;
+}
+
+#contact_form label,
+#contact_form textarea {}
 
 /*MEDIA QUERYS*/
 
@@ -163,5 +214,19 @@ p {
         font-size: 14px !important;
         color: #ececec;
 
+    }
+
+    h2 {
+        font-size: 70px !important;
+
+    }
+
+    #contact_form input,
+    #contact_form label,
+    #contact_form textarea {
+        width: 30%;
+        border-style: solid #ececec;
+        border-radius: 0px;
+        color: #28328f;
     }
 }
