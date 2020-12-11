@@ -198,8 +198,21 @@ p {
     color: #28328f;
 }
 
-#contact_form label,
-#contact_form textarea {}
+#send_button {
+    margin-left: 18px;
+    margin-top: 4px;
+    height: 40px;
+    width: 93vw;
+    border-style: 1px solid;
+    border-color: #ececec;
+    border-radius: 0px;
+    background-color: #28328f;
+}
+
+#send_button:hover {
+    background-color: #ececec;
+    color: #28328f;
+}
 
 /*MEDIA QUERYS*/
 
@@ -228,5 +241,15 @@ p {
         border-style: solid #ececec;
         border-radius: 0px;
         color: #28328f;
+    }
+
+    #send_button {
+        margin-top: 4px;
+        margin-left: 18px;
+        width: 29.4vw;
+        border-style: 1px solid;
+        border-color: #ececec;
+        border-radius: 0px;
+        background-color: #28328f;
     }
 }
