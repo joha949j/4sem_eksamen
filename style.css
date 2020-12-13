@@ -214,6 +214,23 @@ p {
     color: #28328f;
 }
 
+#contact_form {
+    justify-content: flex-end;
+}
+
+/*team*/
+
+#team {
+    height: 100vh;
+    background-color: #28328f;
+}
+
+
+
+#team_container img {
+    width: 30%;
+}
+
 /*MEDIA QUERYS*/
 
 
@@ -252,4 +269,12 @@ p {
         border-radius: 0px;
         background-color: #28328f;
     }
+
+    #team_container img {
+        width: 100%;
+        margin-top: ;
+         !important;
+    }
+
+
 }
