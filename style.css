@@ -4,12 +4,15 @@ body {
     margin: 0;
     background-color: #28328f;
     font-family: neue-haas-grotesk-text, sans-serif;
+    scroll-behavior: smooth;
+
 
 }
 
 *,
 *:before,
 *:after {
+    scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
@@ -148,6 +151,7 @@ p {
     height: 100vh;
     background-color: #28328f;
     margin-top: 0 !important;
+    position: relative;
 }
 
 #sectionheader {
@@ -331,6 +335,8 @@ p {
     }
 
 
+
+
 }
 
 
@@ -449,6 +455,52 @@ p {
     transition: opacity 0.5s ease;
 }
 
+
+#year_button {
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+    top: 85%;
+    height: 40px;
+    width: 120px;
+    border-style: 1px solid;
+    border-color: #28328f;
+    border-radius: 0px;
+    background-color: #28328f;
+    visibility: hidden;
+}
+
+#fp_tl_bg:hover button {
+    visibility: visible;
+    transition: 0.5s all ease;
+
+}
+
+#year_button:hover {
+    background: #ececec;
+    color: #28328f;
+}
+
+/*
+#send_button {
+    margin-left: 18px;
+    margin-top: 4px;
+    height: 40px;
+    width: 93vw;
+    border-style: 1px solid;
+    border-color: #ececec;
+    border-radius: 0px;
+    background-color: #28328f;
+}
+
+#send_button:hover {
+    background-color: #ececec;
+    color: #28328f;
+}
+*/
 
 
 
@@ -654,4 +706,19 @@ p {
 
 */
 
-/*test igen*/
+/*tilbage knap*/
+
+
+.luk {
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    color: #ececec;
+    max-width: 40px;
+    max-height: 40px;
+    font-size: 2rem;
+    margin-right: 100%;
+    top: 3%;
+
+}
