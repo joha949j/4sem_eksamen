@@ -49,6 +49,19 @@ p {
 }
 
 
+#icons img,
+#icons2 {
+    width: 40px;
+    color: #ececeC;
+}
+
+.text-left img {
+    width: 40px;
+}
+
+
+
+
 /*NAV*/
 
 .navigation {
@@ -243,8 +256,12 @@ p {
 #contact_form textarea {
     width: 100%;
     border-style: solid #ececec;
-    border-radius: 0px;
+    border-radius: 45px;
     color: #28328f;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);*/
 }
 
 #send_button {
@@ -254,13 +271,19 @@ p {
     width: 93vw;
     border-style: 1px solid;
     border-color: #ececec;
-    border-radius: 0px;
+    border-radius: 45px;
     background-color: #28328f;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
 }
 
 #send_button:hover {
     background-color: #ececec;
     color: #28328f;
+    box-shadow: 0px 15px 20px rgba(40, 50, 143, 0.76);
+
 }
 
 #contact_form {
@@ -305,7 +328,7 @@ p {
     #contact_form textarea {
         width: 30%;
         border-style: solid #ececec;
-        border-radius: 0px;
+        border-radius: 45px;
         color: #28328f;
     }
 
@@ -315,7 +338,7 @@ p {
         width: 29.4vw;
         border-style: 1px solid;
         border-color: #ececec;
-        border-radius: 0px;
+        border-radius: 45px;
         background-color: #28328f;
     }
 
@@ -468,9 +491,13 @@ p {
     width: 120px;
     border-style: 1px solid;
     border-color: #28328f;
-    border-radius: 0px;
+    border-radius: 45px;
     background-color: #28328f;
     visibility: hidden;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
 }
 
 #fp_tl_bg:hover button {
@@ -482,6 +509,8 @@ p {
 #year_button:hover {
     background: #ececec;
     color: #28328f;
+    box-shadow: 0px 15px 20px rgba(40, 50, 143, 0.76);
+
 }
 
 /*
