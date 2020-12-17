@@ -254,7 +254,7 @@ p {
 /*team*/
 
 #team {
-    height: 100vh;
+    height: 100%;
     background-color: #28328f;
 }
 
@@ -273,10 +273,12 @@ p {
 .kids p {
     position: absolute;
     z-index: 99;
-    left: 20%;
+    left: 0;
+    right: 0;
     top: 70%;
     margin: auto;
     opacity: 0;
+    max-width: 200px;
 
 }
 
