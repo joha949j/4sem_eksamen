@@ -50,7 +50,7 @@ p {
 
 
 #icons img,
-#icons2,
+#icons2 img,
 #icons_teams {
     width: 40px;
     color: #ececeC;
@@ -215,7 +215,8 @@ p {
 #contact_form label,
 #contact_form textarea {
     width: 100%;
-    border-style: solid #ececec;
+    border-style: solid;
+    border-color: #ececec;
     border-radius: 45px;
     color: #28328f;
     font-size: 11px;
@@ -228,7 +229,8 @@ p {
     margin-top: 4px;
     height: 40px;
     width: 93vw;
-    border-style: 1px solid;
+    border: 1px;
+    border-style: solid;
     border-color: #ececec;
     border-radius: 45px;
     background-color: #28328f;
@@ -273,13 +275,12 @@ p {
     z-index: 99;
     left: 20%;
     top: 70%;
-    right: ;
     margin: auto;
+    opacity: 0;
+
 }
 
-.kids p {
-    opacity: 0;
-}
+
 
 .kids:hover p {
     opacity: 1;
@@ -331,63 +332,100 @@ p {
     overflow: hidden;
 }
 
-#fp_tl_bg {
+#fp_tl_bg,
+#fp_tl_bg1,
+#fp_tl_bg2,
+#fp_tl_bg3,
+#fp_tl_bg4 {
     padding: 0;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.5);
     transition: width 0.5s ease;
 }
 
-#fp_tl_bg:hover {
+#fp_tl_bg:hover,
+#fp_tl_bg1:hover,
+#fp_tl_bg2:hover,
+#fp_tl_bg3:hover,
+#fp_tl_bg4:hover {
     background-color: rgba(0, 0, 0, 0.0);
 
 }
 
-#fp_tl_bg img {
+#fp_tl_bg img,
+#fp_tl_bg1 img,
+#fp_tl_bg2 img,
+#fp_tl_bg3 img,
+#fp_tl_bg4 img {
     z-index: -1;
     margin: 0;
     padding: 0;
     height: 100%;
+    transition: 0.5s all ease-in-out;
+
 }
 
-#fp_tl_bg:hover img {
+#fp_tl_bg:hover img,
+#fp_tl_bg1:hover img,
+#fp_tl_bg2:hover img,
+#fp_tl_bg3:hover img,
+#fp_tl_bg4:hover img {
     transition: 0.5s all ease-in-out;
     transform: scale(1.1);
 }
 
 
 
-
-#tl-year {
-    position: absolute;
-    z-index: 100;
-    top: 30%;
-}
-
-#fp_tl_bg p {
+#fp_tl_bg p,
+#fp_tl_bg1 p,
+#fp_tl_bg2 p,
+#fp_tl_bg3 p,
+#fp_tl_bg4 p {
     position: absolute;
     z-index: 99;
     left: 0;
     top: 50%;
     right: 0;
-
-}
-
-
-
-
-
-#fp_tl_bg p {
     opacity: 0;
+
+
 }
 
-#fp_tl_bg:hover p {
+#fp_tl_bg:hover p,
+#fp_tl_bg1:hover p,
+#fp_tl_bg2:hover p,
+#fp_tl_bg3:hover p,
+#fp_tl_bg4:hover p {
     opacity: 1;
     transition: opacity 0.5s ease;
 }
 
+#fp_tl_bg:hover button,
+#fp_tl_bg1:hover button,
+#fp_tl_bg2:hover button,
+#fp_tl_bg3:hover button,
+#fp_tl_bg4:hover button {
+    visibility: visible;
+    transition: 0.5s all ease;
 
-#year_button {
+}
+
+
+#tl-year,
+#tl-year1,
+#tl-year2,
+#tl-year3,
+#tl-year4 {
+    position: absolute;
+    z-index: 100;
+    top: 30%;
+}
+
+#year_button,
+#year_button1,
+#year_button2,
+#year_button3,
+#year_button4 {
 
     position: absolute;
     left: 0;
@@ -397,7 +435,8 @@ p {
     top: 85%;
     height: 40px;
     width: 120px;
-    border-style: 1px solid;
+    border: 1px;
+    border-style: solid;
     border-color: #28328f;
     border-radius: 45px;
     background-color: #28328f;
@@ -406,15 +445,15 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
+    color: #ececec;
 }
 
-#fp_tl_bg:hover button {
-    visibility: visible;
-    transition: 0.5s all ease;
 
-}
-
-#year_button:hover {
+#year_button:hover,
+#year_button1:hover,
+#year_button2:hover,
+#year_button3:hover,
+#year_button4:hover {
     background: #ececec;
     color: #28328f;
     box-shadow: 0px 15px 20px rgba(40, 50, 143, 0.76);
@@ -462,7 +501,8 @@ p {
     #contact_form label,
     #contact_form textarea {
         width: 30%;
-        border-style: solid #ececec;
+        border-color: #ececec;
+        border-style: solid;
         border-radius: 45px;
         color: #28328f;
     }
@@ -471,7 +511,8 @@ p {
         margin-top: 4px;
         margin-left: 18px;
         width: 29.4vw;
-        border-style: 1px solid;
+        border: 1px;
+        border-style: solid;
         border-color: #ececec;
         border-radius: 45px;
         background-color: #28328f;
@@ -479,11 +520,13 @@ p {
 
     #team_container img {
         width: 100%;
-        margin-top: ;
-         !important;
     }
 
-    #fp_tl_bg {
+    #fp_tl_bg,
+    #fp_tl_bg1,
+    #fp_tl_bg2,
+    #fp_tl_bg3,
+    #fp_tl_bg4 {
 
         height: 100vh;
     }
@@ -503,12 +546,13 @@ p {
         margin-left: 1em;
     }
 
-    #fp_tl_bg {
-        z-index: ;
-    }
+    #fp_tl_bg,
+    #fp_tl_bg1,
+    #fp_tl_bg2,
+    #fp_tl_bg3,
+    #fp_tl_bg4 {}
 
     #contact_section {
-        position: none;
         z-index: 1;
     }
 
@@ -521,7 +565,7 @@ p {
     }
 
     #icons,
-    #icons_team {
+    #icons2 {
         margin-top: 15vw;
     }
 
